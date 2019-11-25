@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SGHitBufferWriterMat
+  m_Shader: {fileID: 4800000, guid: c84f12e061d19a94b9280a9b7c6943a5, type: 3}
+  m_ShaderKeywords: ENABLE_RESTORATION__ON _APPLY_WIPE_ON _ENABLE_RESTORATION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 8600000, guid: b09d07c2d8fb8e24381be93b4c892757, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _front_tex:
+        m_Texture: {fileID: 2800000, guid: 7aed2c9ac5d5c4e4d91c42396a15b117, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex:
+        m_Texture: {fileID: 8400000, guid: 143c2f29fc2d7aa4cb0f6a53607b3ee3, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - tex_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _alpha_offset: 0.789
+    - _apply_wipe: 1
+    - _enable_restoration: 1
+    - _hermite_left_edge: 0.1
+    - _hermite_left_point: 0.883
+    - _hermite_right_edge: 0.9
+    - _hermite_right_point: 1
+    - _interpolate_type: 1
+    - _reset: 0
+    - _restoration_resolution: 0.002
+    - _restoration_speed: 4.19
+    - _threshold_left: 0.1
+    - _threshold_right: 0.9
+    - _tolerance: 0.99
+    - _transition_time: 10
+    - _using_blur: 0
+    - _wipe_interpolate_left: 0.5
+    - _wipe_interpolate_rightt: 1
+    - _wipe_resolution: 0.002
+    - _wipe_speed: 4
+    - enable_restoration: 0
+    - enable_restoration_: 1
+    - hermite_left_edge: 0.1
+    - hermite_left_edge_: 0.1
+    - hermite_right_edge: 0.9
+    - hermite_right_edge_: 0.9
+    - interpolate_type: 0
+    - interpolate_type_: 0
+    - restoration_resolution: 0.002
+    - restoration_resolution_: 0.002
+    - restoration_speed: 4
+    - restoration_speed_: 4
+    - tolerance: 0.99
+    - tolerance_: 0.99
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
